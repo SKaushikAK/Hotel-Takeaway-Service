@@ -45,7 +45,7 @@ To get started with the project, follow these steps:
 
 4. **Run the application:**
     ```bash
-    python main.py
+    python intro.py
     ```
 ## Usage
 
