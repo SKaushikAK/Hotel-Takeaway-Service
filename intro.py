@@ -2,7 +2,6 @@ from tkinter import *
 from tkinter import font
 from PIL import Image,ImageTk
 from tkinter.messagebox import *
-# main.py
 import subprocess
 
 
@@ -58,7 +57,8 @@ def man():
             file.writelines(string)
             file.close()
             wind.destroy()
-            import man
+            subprocess.run(["python", "man.py"])
+
 
         password=StringVar()
                     
