@@ -14,7 +14,7 @@ Welcome to the Hotel Takeaway Service project! This project aims to provide an o
 
 ## Introduction
 
-The Hotel Takeaway Service allows hotels to manage and offer their menu items for takeaway orders. Customers can browse the menu, place orders, and schedule pickups seamlessly.
+The Hotel Takeaway Service allows hotels to manage and offer their menu items for takeaway orders. Customers can browse the menu, and place orders. And the Managers can manage the pending order, view the order, and add new items. 
 
 ## Features
 
