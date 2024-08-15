@@ -8,6 +8,8 @@ Welcome to the Hotel Takeaway Service project! This project aims to provide an o
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 - [Contact](#contact)
 
 ## Introduction
@@ -55,7 +57,28 @@ To use the Hotel Takeaway Service, follow these steps:
 4. Schedule a pickup time.
 5. Track your order and collect it from the hotel at the scheduled time.
 
+## Contributing
 
+We welcome contributions to the project! To contribute, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+    ```bash
+    git checkout -b feature-name
+    ```
+3. Make your changes and commit them.
+    ```bash
+    git commit -m "Description of your changes"
+    ```
+4. Push your changes to your fork.
+    ```bash
+    git push origin feature-name
+    ```
+5. Create a pull request to the main repository.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 

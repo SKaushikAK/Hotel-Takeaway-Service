@@ -10,6 +10,7 @@ from order import *
 from tkinter.messagebox import *
 from manager import *
 from pendingorder import *
+import binary
 
 
 wind=Tk()

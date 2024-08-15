@@ -10,5 +10,3 @@ for i in range(len(keys)):
 file=open('bill.bin','wb')
 dump(dict(zip(keys,value)),file)
 file.close()
-
-_Feel_The_Pleasure_ 1M views

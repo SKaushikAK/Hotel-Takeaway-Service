@@ -8,8 +8,6 @@ def file_read(file_name):
                 return d[file_name.name]
         except:
             return []
-
-print("Hello")
         
 file=open('bill.bin','rb')
 a=load(file)
