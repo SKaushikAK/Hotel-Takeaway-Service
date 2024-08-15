@@ -2,6 +2,9 @@ from tkinter import *
 from tkinter import font
 from PIL import Image,ImageTk
 from tkinter.messagebox import *
+# main.py
+import subprocess
+
 
 
 
@@ -15,7 +18,7 @@ wind.iconbitmap('icon.ico')
 
 def cust():
     wind.destroy()
-    import front
+    subprocess.run(["python", "front.py"])
   
   
     
@@ -32,7 +35,8 @@ def man():
         cred=file.readline().split(',')
         if name_entry.get()==cred[0] and pass_entry.get()==cred[1]:
             wind.destroy()
-            import man
+            subprocess.run(["python", "man.py"])
+
         else:
             showwarning('Login Error','Invalid Login Credentials')
             return
