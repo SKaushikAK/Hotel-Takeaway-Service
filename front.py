@@ -5,10 +5,9 @@ from tkinter import ttk
 import time
 from datetime import datetime
 from Tree import Tree
-from order import order_list
 from order import *
 from tkinter.messagebox import *
-import binary
+# import binary
 
 
 
@@ -20,6 +19,7 @@ def logout():
 def menu(_time):
             
     def add():
+        
                 
         final.configure(state=NORMAL)
         
@@ -204,10 +204,9 @@ def menu(_time):
         req_=order_list()[0]
         req_dict.update(req_)
         req_dict1=req_
-    
-    
-        
+         
     req=list(req_dict1)
+    print("Req",req_dict1)
     # food.configure(text=tim.title())
     list1.delete(0,END)
     can.create_window(250,350,window=list1,anchor='nw')
